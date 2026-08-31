@@ -1,0 +1,21 @@
+{
+  "name": "fsd-workshop_cse11_034",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinav7-stack/FSD-WORKSHOP_CSE11_034.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/abhinav7-stack/FSD-WORKSHOP_CSE11_034/issues"
+  },
+  "homepage": "https://github.com/abhinav7-stack/FSD-WORKSHOP_CSE11_034#readme"
+}
