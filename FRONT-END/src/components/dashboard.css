@@ -1,0 +1,112 @@
+.dashboard-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e0e2e5;
+  padding: 30px;
+}
+
+.dashboard-box {
+  width: 600px;
+  background: rgb(247, 245, 245);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
+}
+
+.dashboard-box h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.welcome-section h2 {
+  margin-bottom: 8px;
+}
+
+.welcome-section p {
+  color: #666;
+}
+
+.user-details {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.user-details h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.detail-row span {
+  color: #666;
+}
+
+.detail-row strong {
+  color: #222;
+}
+
+.dashboard-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.dashboard-actions button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 7px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.dashboard-actions button:hover {
+  background: #1d4ed8;
+}
+
+.dashboard-actions .logout-btn {
+  background: #555;
+}
+
+.dashboard-actions .logout-btn:hover {
+  background: #333;
+}
+
+.no-user {
+  text-align: center;
+}
+
+.no-user p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.no-user button {
+  padding: 12px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 7px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}

@@ -1,14 +1,10 @@
-// import React from 'react'
+function Home() {
+  return (
+    <div>
+      <h2>Welcome to homepage</h2>
+      <h2>this is new heading</h2>
+    </div>
+  );
+}
 
-// const Home = () => {
-//   return (
-
-//     <div>Home
-
-//       <h2>Welcome to homepage</h2>
-//       <img src="../src/assets/io.jpg" alt="can not load" />
-//     </div>
-//   )
-// }
-
-// export default Home
+export default Home;
